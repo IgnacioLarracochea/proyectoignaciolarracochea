@@ -1,0 +1,288 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header nav{
+    background-color: rgb(0, 102, 128);
+    width: 100%;
+    height: 350px;
+}
+
+header nav h1 {
+    color: red;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-size: 140px;
+}
+
+
+.center-submenu{
+    display: flex;
+    color: black;
+    background-color: gray;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 70px;
+
+}
+
+main{
+    width: 100%;
+    height: 2700px;
+}
+
+.fondo{
+    background-image: url("../../imagenes/Menuescritorio/fondomenu.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.center-games{
+    color: red;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-size: 100px;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+#grilla{
+    display: grid;
+    grid-template-columns: 30% 30% ;
+    grid-template-rows: 1300px 1300px;
+
+
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+#grilla div{
+    
+    width: 100%;
+    height: 80%;
+
+
+}
+
+.carta{
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+footer{
+    background-color: rgb(0, 102, 128);
+    height: 500px;
+}
+
+.orden{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 70px;
+}
+
+@media only screen and (max-width:600px){
+
+    
+
+    header nav{
+        width: 100%;
+        height: 100px;
+    }
+
+    .center-submenu{
+        display: flex;
+        width: 100%;
+        height: 70px;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+    
+    }
+
+
+    header nav h1 {
+
+        font-size: 30px;
+    
+    }
+
+
+
+    main{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 800px;
+    }
+
+    .fondo{
+        background-image: url("../../imagenes/Menuescritorio/fondomenu.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .center-games{
+        color: aqua;
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        font-size: 15px;
+        align-items: center;
+        height: 200px;
+    }
+
+
+    #grilla{
+
+        display: grid;
+        grid-template-rows: 300px 300px 300px ;
+    
+    
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+    
+    #grilla div{
+    
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .carta{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    footer{
+
+        width: 100%;
+        height: 300px;
+
+
+    }
+    
+    .orden{
+        display: flex;
+        width: 100%;
+        height: 150px;
+        flex-direction: column;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    
+
+    header nav{
+        width: 100%;
+        height: 100px;
+    }
+
+    .center-submenu{
+        display: flex;
+        width: 100%;
+        height: 70px;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+    
+    }
+
+
+    header nav h1 {
+
+        font-size: 30px;
+    
+    }
+
+
+
+    main{
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+        height: 800px;
+    }
+
+    .fondo{
+        background-image: url("../../imagenes/Menuescritorio/fondomenu.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .center-games{
+        color: aqua;
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        font-size: 15px;
+        align-items: center;
+        height: 200px;
+    }
+
+
+    #grilla{
+
+        display: grid;
+        grid-template-rows: 300px 300px 300px ;
+    
+    
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+    
+    #grilla div{
+    
+        width: 100%;
+        height: 200px;
+    
+    }
+    
+    .carta{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    footer{
+
+        width: 100%;
+        height: 300px;
+
+
+    }
+    
+    .orden{
+        display: flex;
+        width: 100%;
+        height: 150px;
+        flex-direction: column;
+        font-size: 20px;
+    }
+}

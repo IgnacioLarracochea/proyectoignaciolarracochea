@@ -1,0 +1,324 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header nav{
+    background-color: rgb(0, 102, 128);
+    width: 100%;
+    height: 100px;
+}
+
+header nav h1 {
+    color: red;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.titulo {
+
+    animation-name: colores;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes colores{
+
+    0%{
+
+        background-color: red;
+
+    }
+
+    25%{
+
+        background-color: black;
+
+    }
+
+    50%{
+
+        background-color: blueviolet;
+
+    }
+
+    75%{
+
+        background-color: chartreuse;
+
+    }
+
+    100%{
+
+        background-color: gold;
+
+    }
+
+}
+
+
+header nav p {  
+    color: white; 
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    font-size: 30px;
+    align-items: center;
+}
+
+body header nav div :hover{
+
+    transform: rotate(360deg);
+    background-color: aqua;
+    
+
+}
+
+.center-menu{
+    display: flex;
+    color: black;
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 1000px;
+}
+
+.fondo{
+    background-image: url("../../imagenes/Menuescritorio/fondomenu.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#grilla{
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-template-rows: 500px 500px;
+
+
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+
+#grilla div{
+
+    width: 100%;
+    height: 300px;
+    padding-left: 2.5%;
+
+
+}
+
+.carta{
+    display: flex;
+    flex-direction: column;
+}
+
+    
+
+footer{
+    background-color: rgb(0, 102, 128);
+    height: 200px;
+}
+
+.orden{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+    
+
+    body header nav{
+
+        width: 50%;
+        height: 50px;
+
+    }
+
+    
+
+    body header nav div .center-menu{
+        display: flex;
+        color: black;
+        background-color: gray;
+        width: 0%;
+        height: 70px;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+    
+    }
+
+    #grilla{
+
+        display: grid;
+        grid-template-columns: 10% 10% 10% 10%;
+        grid-template-rows: 500px 500px;
+    
+    
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    
+    
+    #grilla div{
+    
+        width: 95%;
+        height: 150px;
+        padding-left: 2.5%;
+    
+    
+    }
+    
+    .carta{
+        display: flex;
+        flex-direction: column;
+    }
+    
+   
+    
+    main{
+        width: 100%;
+        height: 100px;
+    }
+    
+    footer{
+
+        width: 100%;
+        height: 300px;
+
+
+    }
+    
+    .orden{
+        display: flex;
+        width: 100%;
+        height: 150px;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+
+    
+}
+
+@media only screen and (max-width:1024px) {
+
+    header{
+        height: 200px;
+
+    }
+
+    body header nav{
+
+        width: 100%;
+        height: 150px;
+
+    }
+
+    header nav h1 {
+        color: red;
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        font-size: 50px;
+    }
+    
+    header nav p {  
+        color: white; 
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        font-size: 40px;
+        align-items: center;
+    }
+
+    .center-menu{
+        display: flex;
+        color: black;
+        background-color: gray;
+        width: 100%;
+        height: 100px;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 20px;
+    
+    }
+   
+
+    #grilla{
+        grid-template-columns: 50% 50% ;
+        grid-template-rows:  200px 200px 200px 200px ;
+        column-gap: 5px;
+        margin: 0%;
+        padding: 0%;
+        
+    }
+
+    #grilla div{
+    
+        width: 95%;
+        height: 150px;
+        padding-left: 2.5%;
+    
+    
+    }
+
+    .carta{
+        padding: 2px;
+    }
+
+    body main{
+        width: 100%;
+        height: 800px;
+    }
+    
+    footer{
+
+        width: 100%;
+        height: 300px;
+
+
+    }
+    
+    .orden{
+        display: flex;
+        width: 100%;
+        height: 150px;
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+
+
+
+
+
+}
