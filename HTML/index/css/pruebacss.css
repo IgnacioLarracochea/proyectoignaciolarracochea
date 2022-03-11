@@ -171,4 +171,8 @@ footer {
     margin: 10px;
     padding: 10px;
     background-color: white;
-    border-radius: 12px; } }
+    border-radius: 12px; }
+  .var, .var-2 {
+    justify-content: center; }
+  .var-2 {
+    background-color: white; } }

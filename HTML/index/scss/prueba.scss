@@ -1,4 +1,7 @@
 $ancho: 791.5px + 791.5px; 
+$center: center;
+$fondo: white;
+
 
 
 *{
@@ -309,6 +312,13 @@ footer{
         @include neo( 10px, 10px, 12px );
     }
 
+    .var{
+        justify-content: $center;
+    }
+    .var-2{
+        @extend .var;
+        background-color: $fondo;
+    }
 
 
 }
